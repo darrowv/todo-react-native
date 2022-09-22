@@ -1,4 +1,3 @@
-// import { StatusBar } from "expo-status-bar";
 import { useState } from "react";
 import {
   FlatList,
@@ -30,6 +29,7 @@ export default function App() {
   return (
     <>
       <View style={styles.appContainer}>
+        <StatusBar barStyle="light-content" />
         <View style={{alignItems: "center"}}>
           <View style={styles.addButtonContainer}>
             <Pressable
@@ -67,7 +67,7 @@ export default function App() {
 const styles = StyleSheet.create({
   appContainer: {
     flex: 1,
-    paddingTop: 50,
+    paddingTop: 70,
     paddingHorizontal: 16,
     backgroundColor: "#273840",
   },
