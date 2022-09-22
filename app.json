@@ -1,5 +1,9 @@
 {
   "expo": {
+    "androidStatusBar": {
+      "backgroundColor": "#273840",
+      "barStyle": "light-content"
+    },
     "name": "RNCourse",
     "slug": "RNCourse",
     "version": "1.0.0",
